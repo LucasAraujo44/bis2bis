@@ -7,7 +7,7 @@ class Database {
         return mongoose.connect
             (process.env.DB_MONGO,
                 {
-                    user: config.database.usernam,
+                    user: config.database.username,
                     pass: config.database.password
                 })
     }
